@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import 'react-bootstrap';
 
 import { Link } from 'react-router-dom';
-import { refresh, refreshHard } from 'aos';
+//import { refresh, refreshHard } from 'aos';
 
 
 

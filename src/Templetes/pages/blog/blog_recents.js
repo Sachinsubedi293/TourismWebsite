@@ -4,11 +4,11 @@ import 'aos/dist/aos.css';
 import 'react-bootstrap';
 
 import { Link } from 'react-router-dom';
-import { refresh, refreshHard } from 'aos';
+// import { refresh, refreshHard } from 'aos';
 
 
 
-const Blog_recent = ()=>{
+const Blogrecent = ()=>{
     const [Api, setApi] =useState([]);
 
 
@@ -84,4 +84,4 @@ const Blog_recent = ()=>{
   </>
   );
        }
-  export default Blog_recent;
+  export default Blogrecent;

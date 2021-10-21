@@ -1,13 +1,13 @@
 import React from 'react';
 import Footer from './components/footer';
-import Header from './pages/components/header';
-import Product_card from './pages/card';
+import Header from './components/header';
+import Productcard from './pages/card';
 
 const Card = ()=>{
     return(
         <div>
             <Header/>
-            <Product_card/>
+            <Productcard/>
             <Footer/>
         </div>
     )

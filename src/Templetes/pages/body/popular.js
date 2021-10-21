@@ -3,7 +3,7 @@ import axios from 'axios';
 import 'aos/dist/aos.css';
 import 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { Checkbox } from 'react-bootstrap';
+// import { Checkbox } from 'react-bootstrap';
 
 
 
@@ -100,7 +100,7 @@ const Popular = ()=>{
             
                </div>
               <div className="card-footer">
-              <p className="card-text"><small className="text-muted ">{card.created}</small></p>
+              <p className="card-text"><small className="text-muted ">{Date(Date(card.created))}</small></p>
             </div>
           </div>
     </Link>
@@ -124,7 +124,7 @@ const Popular = ()=>{
             
                </div>
               <div className="card-footer">
-              <p className="card-text"><small className="text-muted ">{card.created}</small></p>
+              <p className="card-text"><small className="text-muted ">{Date(card.created)}</small></p>
             </div>
           </div>
     </Link>
@@ -148,7 +148,7 @@ const Popular = ()=>{
             
                </div>
               <div className="card-footer">
-              <p className="card-text"><small className="text-muted ">{card.created}</small></p>
+              <p className="card-text"><small className="text-muted ">{Date(card.created)}</small></p>
             </div>
           </div>
     </Link>
@@ -172,7 +172,7 @@ const Popular = ()=>{
             
                </div>
               <div className="card-footer">
-              <p className="card-text"><small className="text-muted ">{card.created}</small></p>
+              <p className="card-text"><small className="text-muted ">{Date(card.created)}</small></p>
             </div>
           </div>
     </Link>

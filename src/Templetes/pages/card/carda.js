@@ -22,9 +22,7 @@ const Carda = ()=>{
       console.log(err);
     })
   },[])
-  function a(){
-return true;
-   } 
+ 
  
   return(
   <>
@@ -38,7 +36,7 @@ return true;
       <Link key={card.id}  to={"/detail-page/"+card.id}>
      <div className="card shadow  mt-3 mb-3 me-5 ms-4"  style={{maxHeight:"540px", height:"510px"}}>
             <img src={card.image} className="card-img-top p-1" style={{maxHeight:"250px"}} alt={card.name}/>
-           {card.sale===true?<><img src={sale} className="img" style={{position:"fixed", maxWidth:"100px", maxHeight:"100px"}}></img></>:<></>} 
+           {card.sale===true?<><img src={sale} className="img" style={{position:"fixed", maxWidth:"100px", maxHeight:"100px"}} alt={card.name}></img></>:<></>} 
             <div className="card-body">
               <h6 className="card-title ">{card.name}</h6>
               <p className="card-text text-danger pt-2 py-auto"><h5>Rs.{card.price}</h5></p>

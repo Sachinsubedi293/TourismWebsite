@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 import 'react-bootstrap';
 
 
-const Card_Blog = ()=>{
+const CardBlog = ()=>{
   const [Api, setApi] =useState([]);
 
 
@@ -25,7 +25,7 @@ axios.get(`https://tourism-data.herokuapp.com/api/blogs/${4}`)
 })
 },[])
 
-  if (Api.length == 0) {
+  if (Api.length === 0) {
     return <div>Loading...</div>
   }
   else{
@@ -51,4 +51,4 @@ axios.get(`https://tourism-data.herokuapp.com/api/blogs/${4}`)
   </>
   );}
        }
-  export default Card_Blog;
+  export default CardBlog;

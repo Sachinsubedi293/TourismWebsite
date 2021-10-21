@@ -1,12 +1,12 @@
 import React, { useEffect,useState} from 'react';
-import {Link} from 'react-router-dom';
+//import {Link} from 'react-router-dom';
 import axios from 'axios';
 //import Aos from 'aos';
 import 'aos/dist/aos.css';
 import 'react-bootstrap';
 
 
-const Top_blog = ()=>{
+const Topblog = ()=>{
   const [Api, setApi] =useState([]);
 
 
@@ -50,4 +50,4 @@ axios.get(`https://tourism-data.herokuapp.com/api/blogs/${4}`)
   </>
   );
        }
-  export default Top_blog;
+  export default Topblog;

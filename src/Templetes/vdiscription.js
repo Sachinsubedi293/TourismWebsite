@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from './components/footer';
-import Header from './pages/components/headers';
+import Header from './components/header';
 import VisitDiscription from './pages/body/visitdiscription';
 
 const Vdiscription = ()=>{

@@ -37,7 +37,7 @@ const Carousel = ()=>{
   <div className="carousel-inner" >
     <div className="carousel-item active">
 
-      <img src={images} className="d-block w-100 container-fluid p-0"  alt="main-image" />
+      <img src={images} className="d-block w-100 container-fluid p-0"  alt="main-img=1" />
         <div className="carousel-caption d-none d-md-block">
          <b> <h3 className="text-danger "  style={{backgroundColor:"#7e7e8562"}}>
            If you Liked our Website then please give us Feedback.

@@ -5,7 +5,7 @@ import axios from 'axios';
 import 'aos/dist/aos.css';
 //import { useParams } from 'react-router-dom';
 import Carda from './card/carda';
-import Card_Blog from './card/card-blog';
+import CardBlog from './card/card-blog';
 import Popularcard from './card/popularcard';
 import sale from './Resources/60sale.jpg';
 
@@ -31,7 +31,7 @@ const Card = ()=>{
   return(
   <>
             
-           <Card_Blog />
+           <CardBlog />
            
       {/* <!--now-->  */}
         <h2><strong><p className=" text-center mt-3"   > PRODUCTS<hr/></p></strong> </h2>

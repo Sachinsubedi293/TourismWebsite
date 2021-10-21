@@ -27,7 +27,7 @@ useEffect(()=>{
   .catch((err)=>{
     console.log(err);
   })
-},[])
+},[id1])
 return(
   <div>
     {
