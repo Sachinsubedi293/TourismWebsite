@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import 'react-bootstrap';
 //import avai from '../Resources/available.png';
 import { Link } from 'react-router-dom';
-import sale from '../Resources/Sale.gif';
+import sale from '../Resources/sale1.png';
 import avai from '../Resources/available.png'
 
 
