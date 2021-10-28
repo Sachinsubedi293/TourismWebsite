@@ -12,7 +12,7 @@ const Popularcard = ()=>{
 
   useEffect(()=>{
   
-  axios.get(`https://tourism-data.herokuapp.com/api/products/${1}`)
+  axios.get(`https://tourismdatabase.herokuapp.com/api/products/${1}`)
   
   .then((res)=>{
     var arr = [];
@@ -30,7 +30,7 @@ const Popularcard = ()=>{
 
   useEffect(()=>{
   
-  axios.get(`https://tourism-data.herokuapp.com/api/products/${2}`)
+  axios.get(`https://tourismdatabase.herokuapp.com/api/products/${2}`)
   
   .then((res)=>{
     var arr = [];
@@ -48,7 +48,7 @@ const Popularcard = ()=>{
 
   useEffect(()=>{
   
-  axios.get(`https://tourism-data.herokuapp.com/api/products/${3}`)
+  axios.get(`https://tourismdatabase.herokuapp.com/api/products/${3}`)
   
   .then((res)=>{
     var arr = [];
@@ -66,7 +66,7 @@ const Popularcard = ()=>{
 
   useEffect(()=>{
   
-  axios.get(`https://tourism-data.herokuapp.com/api/products/${4}`)
+  axios.get(`https://tourismdatabase.herokuapp.com/api/products/${4}`)
   
   .then((res)=>{
     var arr = [];

@@ -12,7 +12,7 @@ const Cardblog = ()=>{
 
   useEffect(()=>{
   
-  axios.get(`https://tourism-data.herokuapp.com/api/blogs/${4}`)
+  axios.get(`https://tourismdatabase.herokuapp.com/api/blogs/${4}`)
   
   .then((res)=>{
     var arr = [];
@@ -30,7 +30,7 @@ const Cardblog = ()=>{
 
   useEffect(()=>{
   
-  axios.get(`https://tourism-data.herokuapp.com/api/blogs/${5}`)
+  axios.get(`https://tourismdatabase.herokuapp.com/api/blogs/${5}`)
   
   .then((res)=>{
     var arr = [];

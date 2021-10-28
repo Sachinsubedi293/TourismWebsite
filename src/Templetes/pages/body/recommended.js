@@ -12,7 +12,7 @@ const Recommended = ()=>{
 
   useEffect(()=>{
   
-  axios.get(`https://tourism-data.herokuapp.com/api/visit/${5}`)
+  axios.get(`https://tourismdatabase.herokuapp.com/api/visit/${5}`)
   
   .then((res)=>{
     var arr = [];
@@ -30,7 +30,7 @@ const Recommended = ()=>{
 
   useEffect(()=>{
   
-  axios.get(`https://tourism-data.herokuapp.com/api/visit/${6}`)
+  axios.get(`https://tourismdatabase.herokuapp.com/api/visit/${6}`)
   
   .then((res)=>{
     var arr = [];
@@ -48,7 +48,7 @@ const Recommended = ()=>{
 
   useEffect(()=>{
   
-  axios.get(`https://tourism-data.herokuapp.com/api/visit/${7}`)
+  axios.get(`https://tourismdatabase.herokuapp.com/api/visit/${7}`)
   
   .then((res)=>{
     var arr = [];
@@ -66,7 +66,7 @@ const Recommended = ()=>{
 
   useEffect(()=>{
   
-  axios.get(`https://tourism-data.herokuapp.com/api/visit/${8}`)
+  axios.get(`https://tourismdatabase.herokuapp.com/api/visit/${8}`)
   
   .then((res)=>{
     var arr = [];

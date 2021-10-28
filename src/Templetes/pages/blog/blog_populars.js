@@ -14,7 +14,7 @@ const Blog_popular = ()=>{
 
     useEffect(()=>{
     
-    axios.get(`https://tourism-data.herokuapp.com/api/blogs/${1}`)
+    axios.get(`https://tourismdatabase.herokuapp.com/api/blogs/${1}`)
     
     .then((res)=>{
       var arr = [];
@@ -31,7 +31,7 @@ const Blog_popular = ()=>{
 
     useEffect(()=>{
     
-    axios.get(`https://tourism-data.herokuapp.com/api/blogs/${2}`)
+    axios.get(`https://tourismdatabase.herokuapp.com/api/blogs/${2}`)
     
     .then((res)=>{
       var arr = [];
@@ -49,7 +49,7 @@ const Blog_popular = ()=>{
 
   useEffect(()=>{
   
-  axios.get(`https://tourism-data.herokuapp.com/api/blogs/${3}`)
+  axios.get(`https://tourismdatabase.herokuapp.com/api/blogs/${3}`)
   
   .then((res)=>{
     var arr = [];
@@ -67,7 +67,7 @@ const Blog_popular = ()=>{
 
   useEffect(()=>{
   
-  axios.get(`https://tourism-data.herokuapp.com/api/blogs/${4}`)
+  axios.get(`https://tourismdatabase.herokuapp.com/api/blogs/${4}`)
   
   .then((res)=>{
     var arr = [];

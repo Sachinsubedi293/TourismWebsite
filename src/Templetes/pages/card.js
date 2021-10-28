@@ -17,7 +17,7 @@ const Card = ()=>{
   const [Api, setApi] =useState([]);
   
   useEffect(()=>{
-    axios.get(`https://tourism-data.herokuapp.com/api/products/`)
+    axios.get(`https://tourismdatabase.herokuapp.com/api/products/`)
     .then((res)=>{
       console.log(res.data);
       setApi(res.data);

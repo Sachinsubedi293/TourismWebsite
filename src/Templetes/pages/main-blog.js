@@ -15,7 +15,7 @@ const Blog = () => {
   const [Api, setApi] = useState([]);
 
   useEffect(() => {
-    axios.get(`https://tourism-data.herokuapp.com/api/blogs/`)
+    axios.get(`https://tourismdatabase.herokuapp.com/api/blogs/`)
       .then((res) => {
         console.log(res.data);
         setApi(res.data);

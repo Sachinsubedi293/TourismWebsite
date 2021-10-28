@@ -18,7 +18,7 @@ const Footer = () => {
             author: author,
         };
         localStorage.setItem("Feedback", "Feedbacksaved");
-        axios.post(`https://tourism-data.herokuapp.com/api/feedback/`, feedback)
+        axios.post(`https://tourismdatabase.herokuapp.com/api/feedback/`, feedback)
             .then(res => {console.log(res.data)
             }
             );
@@ -34,7 +34,7 @@ const Footer = () => {
             email: email,
         };
         localStorage.setItem("Subscriber", "Subscribersaved")
-        axios.post(`https://tourism-data.herokuapp.com/api/subscriber/`, subscriber)
+        axios.post(`https://tourismdatabase.herokuapp.com/api/subscriber/`, subscriber)
             .then(res => console.log(res.data));
     }
     return (

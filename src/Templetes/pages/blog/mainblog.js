@@ -12,7 +12,7 @@ const Mainblog = ()=>{
 
 useEffect(()=>{
 
-axios.get(`https://tourism-data.herokuapp.com/api/blogs/${3}`)
+axios.get(`https://tourismdatabase.herokuapp.com/api/blogs/${3}`)
 
 .then((res)=>{
   var arr = [];

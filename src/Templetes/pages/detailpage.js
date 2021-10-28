@@ -20,7 +20,7 @@ const Detailpage = (_props) => {
   console.log(id1);
   useEffect(() => {
 
-    axios.get(`https://tourism-data.herokuapp.com/api/products/${id1}`)
+    axios.get(`https://tourismdatabase.herokuapp.com/api/products/${id1}`)
 
       .then((res) => {
         var arr = [];
@@ -36,7 +36,7 @@ const Detailpage = (_props) => {
     , [id1])
   function onload() {
     if (Api.length > 0) {
-      axios.get(`https://tourism-data.herokuapp.com/api/categories/${Api.map(hello => (hello.category))}`)
+      axios.get(`https://tourismdatabase.herokuapp.com/api/categories/${Api.map(hello => (hello.category))}`)
         .then((res) => {
           var arr = [];
           arr.push(res.data);

@@ -12,7 +12,7 @@ const Carousel = ()=>{
     const [Api, setApi] =useState([]);
     
     useEffect(()=>{
-      axios.get(`https://tourism-data.herokuapp.com/api/visit/`)
+      axios.get(`https://tourismdatabase.herokuapp.com/api/visit/`)
       .then((res)=>{
         console.log(res.data);
     

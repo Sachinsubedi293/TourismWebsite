@@ -13,7 +13,7 @@ const Popular = ()=>{
 
   useEffect(()=>{
   
-  axios.get(`https://tourism-data.herokuapp.com/api/visit/${1}`)
+  axios.get(`https://tourismdata.herokuapp.com/api/visit/${1}`)
   
   .then((res)=>{
     var arr = [];
@@ -31,7 +31,7 @@ const Popular = ()=>{
 
   useEffect(()=>{
   
-  axios.get(`https://tourism-data.herokuapp.com/api/visit/${2}`)
+  axios.get(`https://tourismdata.herokuapp.com/api/visit/${2}`)
   
   .then((res)=>{
     var arr = [];
@@ -49,7 +49,7 @@ const Popular = ()=>{
 
   useEffect(()=>{
   
-  axios.get(`https://tourism-data.herokuapp.com/api/visit/${3}`)
+  axios.get(`https://tourismdata.herokuapp.com/api/visit/${3}`)
   
   .then((res)=>{
     var arr = [];
@@ -67,7 +67,7 @@ const Popular = ()=>{
 
   useEffect(()=>{
   
-  axios.get(`https://tourism-data.herokuapp.com/api/visit/${4}`)
+  axios.get(`https://tourismdata.herokuapp.com/api/visit/${4}`)
   
   .then((res)=>{
     var arr = [];

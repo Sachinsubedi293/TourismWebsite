@@ -14,7 +14,7 @@ const Body = () => {
   const [Api, setApi] = useState([]);
 
   useEffect(() => {
-    axios.get(`https://tourism-data.herokuapp.com/api/pictures/`)
+    axios.get(`https://tourismdatabase.herokuapp.com/api/pictures/`)
       .then((res) => {
         console.log(res.data);
 
@@ -51,12 +51,12 @@ const Body = () => {
               </h3></b>
               <div className="slider-btn">
                 <a href="#feedback"> <button className="btn btn-1 btn btn-outline-light">Feedback</button></a>
-
               </div>
+              <div>By: Admin</div>
             </div>
           </div>
-          {Api.map(card => (<div key={card.name} className="carousel-item text-center">
-            <img src={card.image} className="container-fluid p-0" alt={card.name} />
+          {Api.map(card => (<div key={card.name} className="carousel-item  text-center">
+            <img src={card.image} className="d-block w-100 flex"  alt={card.name} />
             <div className="carousel-caption d-none d-md-block">
               <b> <h3 className="text_car1 " style={{ backgroundColor: "#7e7e8562" }}>
                 If you Liked our Website then please give us Feedback.
@@ -64,6 +64,9 @@ const Body = () => {
               <div className="slider-btn">
                 <a href="#feedback"> <button className="btn btn-1 btn btn-outline-light">Feedback</button></a>
 
+              </div>
+              <div className="right">
+               By: {card.by}
               </div>
             </div>
           </div>))}

@@ -16,7 +16,7 @@ const VisitDiscription = (props)=>{
   console.log(id1);
 useEffect(()=>{
 
-  axios.get(`https://tourism-data.herokuapp.com/api/visit/${id1}`)
+  axios.get(`https://tourismdatabase.herokuapp.com/api/visit/${id1}`)
 
   .then((res)=>{
     var arr = [];

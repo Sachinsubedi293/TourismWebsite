@@ -12,7 +12,7 @@ const CardBlog = ()=>{
 
 useEffect(()=>{
 
-axios.get(`https://tourism-data.herokuapp.com/api/blogs/${4}`)
+axios.get(`https://tourismdatabase.herokuapp.com/api/blogs/${4}`)
 
 .then((res)=>{
   var arr = [];

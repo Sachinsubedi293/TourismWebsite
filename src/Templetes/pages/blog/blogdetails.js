@@ -16,7 +16,7 @@ const Blog_detail = (props) => {
   console.log(id1);
   useEffect(() => {
 
-    axios.get(`https://tourism-data.herokuapp.com/api/blogs/${id1}`)
+    axios.get(`https://tourismdatabase.herokuapp.com/api/blogs/${id1}`)
 
       .then((res) => {
         var arr = [];
